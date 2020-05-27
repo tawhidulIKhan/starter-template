@@ -6,49 +6,48 @@
 @import "./../../../node_modules/rfs/scss";
 
 // 1. Configuration and helpers
-@import "abstracts/variables", "abstracts/functions", "abstracts/mixins";
+@import "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixins";
 
 // 2. Vendors
 @import "vendors/normalize";
 
 // 3. Base stuff
-@import "base/base", "base/fonts", "base/typography", "base/background",
-    "base/helpers", "base/animations";
-
-// 4. Layout-related sections
-@import "layout/header", "layout/footer", "layout/section";
+@import "base/base";
+@import "base/typography";
+@import "base/background";
+@import  "base/helpers";
+@import "base/animations";
 
 // // 5. Components
-@import "components/title/title", "components/button",
-    //   "components/gallery/filter",
-     "components/gallery/gallery",
-        // "components/gallery/metro",
-    "components/banner/banner-default",
-     "components/testimonial/modern",
-    "components/video/video",
-      "components/_navbar",
-      //  "components/_carousel", "components/about-us",
-    "components/service/modern/default",
-    "components/why-choose-us/default",
-     "components/team/modern",
-    "components/price/modern",
-     "components/latest-post/modern",
-    "components/subscription/modern",
-     "components/footer/footer",
-    "components/feature/feature",
-    //   "components/counter/counter", "components/hero/1", "components/faq/faq",
-        //   "components/accordion/style-1", "components/accordion/style-2",
-        "components/faq/faq",
-    "components/contact/contact-form", "components/cta/cta",
-    //   "components/shop/shop", "components/sidebar/sidebar",
-        //   "components/pagination/pagination", "components/blog/blog",
-        "components/navbar/search",
-    "components/common", "components/how-does-it-works/how-does-it-works";
+@import "components/title";
+@import "components/button";
+@import "components/gallery";
+@import "components/testimonial";
+@import "components/video/video";
+@import "components/_navbar";
+@import "components/service/modern/default";
+@import "components/team/modern";
+@import "components/price/modern";
+@import "components/latest-post/modern";
+@import "components/subscription/modern";
+@import "components/footer/footer";
+@import "components/feature/feature";
+@import "components/counter/counter";
+@import "components/hero/1";
+@import "components/faq/faq";
+@import "components/accordion/style-1";
+@import "components/contact/contact-form";
+@import "components/cta/cta";
+@import  "components/shop/shop";
+@import "components/sidebar/sidebar";
+@import "components/pagination/pagination";
+@import "components/blog/blog";
+@import "components/navbar/search";
+@import "components/common";
 
 // 6. Page-specific styles
-@import "pages/home";
 
 // 7. Themes
 @import "themes/default";
-
-@import "demo/promo-sidebar";
