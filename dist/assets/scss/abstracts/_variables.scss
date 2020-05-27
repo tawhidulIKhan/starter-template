@@ -85,6 +85,32 @@ $heading-font-color: #223a66;
 $heading-font-weight: 600;
 $heading-line-height: 1;
 
+// Navbar variables
+$navbar-bg-color:#fff;
+$navbar-color:#002e44;
+$navbar-font-size:16px;
+$navbar-font-weight: 500;
+$navbar-text-transform: capitalize;
+$navbar-brand-width:150px;
+$navbar-link-y-space: 27px;
+$navbar-link-x-space: 19px;
+$navbar-widget-space: 20px;
+$navbar-dropdown-width: 250px;
+$navbar-dropdown-radius: 0px;
+$navbar-dropdown-border-width: 0px;
+$navbar-dropdown-color:#959595;
+$navbar-dropdown-font-size:14px;
+$navbar-dropdown-font-weight: 400;
+$navbar-dropdown-text-transform: capitalize;
+$navbar-dropdown-link-y-space: 10px;
+$navbar-dropdown-link-x-space: 20px;
+$navbar-dropdown-link-border-size:1px;
+$navbar-dropdown-link-border-color: #ddd;
+$navbar-dropdown-link-border-style:solid;
+$navbar-search-bg-color:rgba(255,255,255,.9);
+$navbar-toggler-bg-color: transparent;
+$navbar-toggler-font-color: #959595;
+
 // Button Variables Start
 
 $btn-font-family: "Rubik", sans-serif;

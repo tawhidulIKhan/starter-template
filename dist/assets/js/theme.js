@@ -268,3 +268,19 @@ $('.sidebar-mobile-menu-content').find('.dropdown').each(() => {
         // }
     })
 })
+
+// Navbar Toggler
+
+document.querySelector(".navbar-toggler").onclick = () => {
+    document.querySelector(".navbar-collapse").classList.toggle('open');
+}
+
+
+// Navbar Search
+
+document.querySelector("#toggle-search").onclick = () => {
+    document.querySelector("#navbar-search").classList.toggle('show');
+}
+document.querySelector(".close-search-box").onclick = () => {
+    document.querySelector("#navbar-search").classList.toggle('show');
+}

@@ -36,3 +36,16 @@
   @include rfs($y $x, padding);
   @include rfs($fs, font-size); 
 }
+
+@mixin typography($font-size:16, $color: $primary-font-color, $weight:500, $transform: normal, $font-family: $link-font-family){
+  @include rfs($font-size, font-size);
+  color:$color;
+  font-weight:$weight;
+  text-transform: $transform;
+  font-family: $link-font-family;
+}
+
+@mixin icon-typo($font-size:16, $color: $primary-font-color){
+  @include rfs($font-size, font-size);
+  color:$color;
+}
