@@ -1,0 +1,46 @@
+/**
+ * Basic typography style for copy text
+ */
+
+
+@mixin body-fonts{
+color: $text-color;
+font: normal 125% / 1.4 $text-font-stack;
+}
+
+
+@mixin navbar-fonts{
+  font-weight: 600;
+  line-height: 1.18;
+  font-size: rem(16);
+  color: #222222;
+}
+
+@mixin dropdown-menu-font{
+  font-family: "Poppins",sans-serif;
+  font-size: rem(14);
+  line-height: 1.8;
+  color: $dropdown-font-color;
+  font-weight: 500;
+
+}
+
+
+@mixin megamenu-menu-font{
+  font-family: "Poppins",sans-serif;
+  font-size: rem(14);
+  line-height: 2;
+  color: $dropdown-font-color;
+  font-weight: 500;
+
+}
+
+body{
+  font-family: "Rubik", sans-serif;
+    color: #63688e;
+    font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Poppins", sans-serif;
+    color: #0a0c19;
+}

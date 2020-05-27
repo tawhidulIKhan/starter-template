@@ -1,0 +1,64 @@
+/* CSS Document */
+
+.feature{
+    &.feature-style-one{
+        background-color: #ffffff;
+
+          border-style: solid;
+          border-width: 2px;
+          border-color: rgba(255, 58, 70, 0.15);
+          padding: 59px 30px;
+        margin-bottom: 30px;
+        cursor: pointer;
+        &:hover{
+          box-shadow: 0px 8px 20px 0px rgba(255, 58, 70, 0.15);
+        }
+        .heading{
+            font-family: "Poppins",sans-serif;
+	color: #223a66;
+	font-size: 24px;
+	font-weight: 600;    margin-top: 34px;    margin-bottom: 13px;
+        }
+        p{
+            font-family: "Rubik",sans-serif;
+	color: #69798d;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;    margin-bottom: 21px;
+        }
+        .link{
+	font-weight: 500;
+	line-height: 28px;
+	font-family: "Rubik",sans-serif;
+	font-size: 15px;
+  color: rgb(255, 58, 70);
+  line-height: 0.867;
+  text-align: center;
+  .i{
+    margin-left: 4px;
+  }
+
+        }
+    }
+}
+
+.feature-style-two-title{
+        width: 60%;
+    margin: auto;    margin-bottom: 57px;
+        @media screen and (max-width:800px){
+        width: 100%;
+    }
+    .heading{
+        font-family: "Poppins",sans-serif;
+	color: #223a66;
+	font-size: 50px;
+	font-weight: 600;    margin-bottom: 27px;
+    }
+    .tagline{
+        font-family: "Rubik",sans-serif;
+	color: #69798d;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+    }
+}

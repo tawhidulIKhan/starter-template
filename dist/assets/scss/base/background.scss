@@ -1,0 +1,66 @@
+@import "./helpers";
+
+.site-bg-primary{
+background-color: #fff4f0;
+}
+.site-bg-dark{
+    background-color: #0d1549;
+}
+
+
+.parallax-bg-1{
+	@include background('../../assets/images/bg/1.png');
+}
+
+.parallax-bg-2{
+	@include background('../../assets/images/testimonials/bg-1.png');
+}
+
+.parallax-bg-3{
+	@include background('../../assets/images/bg/3.png');
+}
+
+.parallax-bg-4{
+    background-image: url(../../assets/images/testimonials/bg-2.png);
+	background-position: left center;
+    background-repeat: no-repeat;
+	@media screen and (max-width:1759px){
+		    background-size: cover;
+	}
+}
+
+.parallax-bg-5{
+	@include background('../../assets/images/bg/4.png');
+}
+
+.parallax-bg-6{
+	@include background('../../assets/images/video/2.png');
+}
+
+.parallax-bg-7{
+	background-image: url(../../assets/images/bg/5.png);
+    background-size: cover;
+    background-position: 100% center;
+    background-repeat: no-repeat;
+}
+
+
+.banner-parallax-1{
+	@include background('../../assets/images/banners/banner-1.png');
+}
+
+.banner-parallax-2{
+	@include background('../../assets/images/banners/2.png', initial);
+  @media screen and (max-width:1242px){
+    background-size: auto;
+  }
+}
+
+.bg-border-1{
+	    border: 10px dashed lighten($primary-color, 30%);
+}
+
+
+.footer-bg{
+	@include background('../../assets/images/footer/bg.png');
+}

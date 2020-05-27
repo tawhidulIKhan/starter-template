@@ -1,0 +1,49 @@
+@import "../../base/helpers";
+
+.banner{
+  height:100vh;
+  display:flex;
+  align-items: center;
+  position: relative;
+      @media screen and (max-width:1000px){
+  height:auto;
+  display:block;
+              padding: 100px 0px;
+      }
+  .overlay{
+    @include position-top-0-left-0;
+    @include size-boxed;
+  }
+  .content-block{
+    width: 60%;
+    position: relative;
+    z-index: 1;
+      @media screen and (max-width:1000px){
+          width:100%;
+      }
+    .content{
+      &.left{
+        margin-right: auto;
+        text-align: left;
+      }
+      &.right{
+        margin-left: auto;
+        text-align: right;
+      }
+      &.center{
+        margin: auto;
+        text-align: center;
+      }
+    }
+  }
+    .img-block{
+        width: 40%;
+              @media screen and (max-width:1000px){
+          width:100%;
+                      margin-top: 60px;
+      }
+
+    }
+}
+
+

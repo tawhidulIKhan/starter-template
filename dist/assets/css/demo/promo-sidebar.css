@@ -1,0 +1,27 @@
+.promo-sidebar {
+  background-color: #fff;
+  position: fixed;
+  right: -350px;
+  top: 0;
+  width: 350px;
+  height: 100vh; }
+  .promo-sidebar .sidebar {
+    background-color: #fff;
+    position: fixed;
+    right: -350px;
+    top: 0;
+    width: 350px;
+    height: 100vh;
+    padding: 20px; }
+    .promo-sidebar .sidebar .title {
+      font-size: 18px;
+      font-weight: 800; }
+    .promo-sidebar .sidebar .color-scheme .colors {
+      list-style: none;
+      padding: 0px;
+      display: flex; }
+
+#promo-sidebar-opner {
+  position: absolute;
+  top: 50%;
+  left: -60px; }

@@ -1,0 +1,66 @@
+body {
+  background-color: $body-bg-color;
+  color: $primary-font-color;
+  font-family: $primary-font-family;
+}
+
+a {
+  color: $link-font-color;
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.h7 {
+  font-weight: $heading-font-weight;
+  line-height: $heading-line-height;
+  font-family: $heading-font-family;
+  color: $heading-font-color;
+}
+
+h1,
+.h1 {
+  @include rfs($h1-font-size, font-size);
+}
+h2,
+.h2 {
+  @include rfs($h2-font-size, font-size);
+}
+h3,
+.h3 {
+  @include rfs($h3-font-size, font-size);
+}
+h4,
+.h4 {
+  @include rfs($h4-font-size, font-size);
+}
+h5,
+.h5 {
+  @include rfs($h5-font-size, font-size);
+}
+h6,
+.h6 {
+  @include rfs($h6-font-size, font-size);
+}
+.h7 {
+  @include rfs($h7-font-size, font-size);
+}
+
+input {
+  background-color: $input-bg;
+  color: $input-color;
+  border: $input-border;
+  @include rfs($input-border-radius, border-radius);
+}

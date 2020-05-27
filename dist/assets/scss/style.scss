@@ -1,0 +1,54 @@
+@charset 'UTF-8';
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,800i,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Rubik:200,300,400,500,600,700,800,800i,900&display=swap");
+
+@import "./../../../node_modules/rfs/scss";
+
+// 1. Configuration and helpers
+@import "abstracts/variables", "abstracts/functions", "abstracts/mixins";
+
+// 2. Vendors
+@import "vendors/normalize";
+
+// 3. Base stuff
+@import "base/base", "base/fonts", "base/typography", "base/background",
+    "base/helpers", "base/animations";
+
+// 4. Layout-related sections
+@import "layout/header", "layout/footer", "layout/section";
+
+// // 5. Components
+@import "components/title/title", "components/button",
+    //   "components/gallery/filter",
+     "components/gallery/gallery",
+        // "components/gallery/metro",
+    "components/banner/banner-default",
+     "components/testimonial/modern",
+    "components/video/video",
+      "components/_navbar",
+      //  "components/_carousel", "components/about-us",
+    "components/service/modern/default",
+    "components/why-choose-us/default",
+     "components/team/modern",
+    "components/price/modern",
+     "components/latest-post/modern",
+    "components/subscription/modern",
+     "components/footer/footer",
+    "components/feature/feature",
+    //   "components/counter/counter", "components/hero/1", "components/faq/faq",
+        //   "components/accordion/style-1", "components/accordion/style-2",
+        "components/faq/faq",
+    "components/contact/contact-form", "components/cta/cta",
+    //   "components/shop/shop", "components/sidebar/sidebar",
+        //   "components/pagination/pagination", "components/blog/blog",
+        "components/navbar/search",
+    "components/common", "components/how-does-it-works/how-does-it-works";
+
+// 6. Page-specific styles
+@import "pages/home";
+
+// 7. Themes
+@import "themes/default";
+
+@import "demo/promo-sidebar";

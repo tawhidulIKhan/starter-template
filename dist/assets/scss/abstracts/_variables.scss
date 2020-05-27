@@ -1,0 +1,130 @@
+// // -----------------------------------------------------------------------------
+// // This file contains all application-wide Sass variables.
+// // -----------------------------------------------------------------------------
+
+// /// Regular font family
+// /// @type List
+// $text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+// /// Code (monospace) font family
+// /// @type List
+// $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+// $primary-color:#ff6321;
+// $primary-bg-color:#ffddce;
+
+// /// Copy text color
+// /// @type Color
+// $text-color: rgb(34, 34, 34) !default;
+
+// /// Main brand color
+// /// @type Color
+// $brand-color: $primary-color !default;
+
+// /// Light grey
+// /// @type Color
+// $light-grey: rgb(237, 237, 237) !default;
+
+// /// Medium grey
+// /// @type Color
+// $mid-grey: rgb(153, 153, 153) !default;
+
+// /// Dark grey
+// /// @type Color
+// $dark-grey: rgb(68, 68, 68) !default;
+
+// /// Container's maximum width
+// /// @type Length
+// $max-width: 1180px !default;
+
+// /// Breakpoints map
+// /// @prop {String} keys - Keys are identifiers mapped to a given length
+// /// @prop {Map} values - Values are actual breakpoints expressed in pixels
+// $breakpoints: (
+//   'small': 320px,
+//   'medium': 768px,
+//   'large': 1024px,
+// ) !default;
+
+// /// Relative or absolute URL where all assets are served from
+// /// @type String
+// /// @example scss - When using a CDN
+// ///   $base-url: 'http://cdn.example.com/assets/';
+// $base-url: '/assets/' !default;
+
+// $extra-device: 'only screen and (min-width: 1600px) and (max-width: 1919px)';
+// $laptop-device: 'only screen and (min-width: 1200px) and (max-width: 1599px)';
+// $lg-layout: 'only screen and (min-width: 992px) and (max-width: 1199px)';
+// $md-layout:'only screen and (min-width: 768px) and (max-width: 991px)';
+// $sm-layout:'only screen and (max-width: 767px)';
+// $large-mobile: 'only screen and (max-width: 575px)';
+// $small-mobile: 'only screen and (max-width: 479px)';
+
+// Define sass veriables :
+
+$white: #fff;
+$primary-color: #ff3a46;
+$secondary-color: #ff6321;
+$body-bg-color: #fff;
+$primary-font-color: #69798d;
+$secondary-font-color: #fefefe;
+$primary-font-family: "Rubik", sans-serif;
+$secondary-font-family: "Rubik", sans-serif;
+$link-font-family: "Rubik", sans-serif;
+$link-font-color: $primary-color;
+$link-hover-color: darken($primary-color, 20%);
+$h1-font-size: 80px;
+$h2-font-size: 70px;
+$h3-font-size: 64px;
+$h4-font-size: 50px;
+$h5-font-size: 24px;
+$h6-font-size: 18px;
+$h7-font-size: 16px;
+$heading-font-family: "Poppins", sans-serif;
+$heading-font-color: #223a66;
+$heading-font-weight: 600;
+$heading-line-height: 1;
+
+// Button Variables Start
+
+$btn-font-family: "Rubik", sans-serif;
+$btn-font-size: 16px;
+$btn-width: 180px;
+$btn-height: 50px;
+$btn-font-weight: 500;
+$btn-border-size: 0px;
+$btn-default-color: $primary-color;
+$btn-default-bg: transparent;
+$btn-default-border: 2px solid $primary-color;
+$btn-primary-color: #fff;
+$btn-primary-bg: $primary-color;
+$btn-primary-border: none;
+$btn-border-radius: 55px;
+$btn-transparent-border-size: 3px;
+
+$btn-y-spacing: 18px;
+$btn-x-spacing: 38px;
+
+$btn-lg-y-spacing: 24px;
+$btn-lg-x-spacing: 48px;
+
+$btn-md-y-spacing: 18px;
+$btn-md-x-spacing: 38px;
+
+$btn-sm-y-spacing: 18px;
+$btn-sm-x-spacing: 38px;
+
+$btn-xs-y-spacing: 12px;
+$btn-xs-x-spacing: 16px;
+$btn-xs-font-size: 14px;
+
+// Input Variables Start
+
+$input-bg: #fff;
+$input-bg-disabled: #ddd;
+$input-color: #0a0c19; // Not Sure
+$input-border: none;
+$input-border-radius: 65px;
+$input-border-focus: none;
+$input-color-placeholder: #dedede;
+$input-height-base: 65px;

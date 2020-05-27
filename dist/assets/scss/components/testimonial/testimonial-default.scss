@@ -1,0 +1,26 @@
+@import "../../abstracts/variables";
+@import "../../base/helpers";
+
+$banner-default-bg:'https://images.pexels.com/photos/934718/pexels-photo-934718.jpeg';
+$banner-default-overlay-color:rgba($primary-color,.5);
+$banner-default-content-size:50%;
+
+.banner-default{
+  .overlay-light{
+    background-color: $banner-default-overlay-color;
+  }
+  @include background($banner-default-bg);
+  .content{
+    width:$banner-default-content-size;
+    .title{
+
+    }
+    .short-content{
+
+    }
+  }
+}
+
+
+
+
