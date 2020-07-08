@@ -1,20 +1,15 @@
 {
-  "dependencies": {
-    "gulp-pxtorem": "^3.0.0",
-    "gulp-responsive": "^3.0.1",
-    "magnific-popup": "^1.1.0",
-    "minimatch": "^3.0.4",
-    "node": "^12.13.0",
-    "postcss-pxtorem": "^4.0.1",
-    "rfs": "^9.0.3"
-  },
-  "devDependencies": {
-    "browser-sync": "^2.26.7",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
-    "gulp-imagemin": "^6.1.1",
-    "gulp-jsbeautifier": "^3.0.1",
-    "gulp-sass": "^4.0.2",
-    "node-sass": "^4.13.0"
-  }
+    "scripts": {
+        "start": "gulp watch"
+    },
+    "dependencies": {
+        "minimatch": "^3.0.4",
+        "node": "^12.13.0"
+    },
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-sass": "^4.0.2",
+        "node-sass": "^4.13.0"
+    }
 }

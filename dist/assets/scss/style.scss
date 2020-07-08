@@ -1,53 +1,5 @@
-@charset 'UTF-8';
+@import "functions";
+@import "mixins";
+@import "variables";
 
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,800i,900&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Rubik:200,300,400,500,600,700,800,800i,900&display=swap");
-
-@import "./../../../node_modules/rfs/scss";
-
-// 1. Configuration and helpers
-@import "abstracts/variables";
-@import "abstracts/functions";
-@import "abstracts/mixins";
-
-// 2. Vendors
-@import "vendors/normalize";
-
-// 3. Base stuff
-@import "base/base";
-@import "base/typography";
-@import "base/background";
-@import  "base/helpers";
-@import "base/animations";
-
-// // 5. Components
-@import "components/title";
-@import "components/button";
-@import "components/gallery";
-@import "components/testimonial";
-@import "components/video/video";
-@import "components/_navbar";
-@import "components/service/modern/default";
-@import "components/team/modern";
-@import "components/price/modern";
-@import "components/latest-post/modern";
-@import "components/subscription/modern";
-@import "components/footer/footer";
-@import "components/feature/feature";
-@import "components/counter/counter";
-@import "components/hero/1";
-@import "components/faq/faq";
-@import "components/accordion/style-1";
-@import "components/contact/contact-form";
-@import "components/cta/cta";
-@import  "components/shop/shop";
-@import "components/sidebar/sidebar";
-@import "components/pagination/pagination";
-@import "components/blog/blog";
-@import "components/navbar/search";
-@import "components/common";
-
-// 6. Page-specific styles
-
-// 7. Themes
-@import "themes/default";
+@import "basics";
